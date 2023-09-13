@@ -1,62 +1,166 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T17:49:08.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4cDpwWHpUu55WPeLkdVd" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T15:46:09.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hqvj8sPyMAPEOb8EErmG" version="21.7.4" type="github">
   <diagram name="Page-1" id="qTLsOYl_WOaa5vXqDPGa">
-    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-1" value="&lt;h1&gt;Застосунок з оголошень обміну/продажу/відгуками книгами&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Кожен бажаючий може продати(обміняти) або ж купити книгу. Для публікації оголошення можна отримати передбачення, наскільки&amp;nbsp; книга актуальна (ціна, попит, інше). Для пошуку книг можна застосовувати фільтри(автор, видавництво, рік/номер видання, інше). Можна також публікувати відгуки, рецензії про книги. Люди можуть комунікувати один-з-одним та домовлятися про купівлю-продає/обмін.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KkIZ0aHoOunqVcFj1HI7-1" value="&lt;h1&gt;Застосунок з оголошень обміну/продажу/відгуками книгами&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Кожен бажаючий може продати(обміняти) або ж купити книгу. Для публікації оголошення можна отримати передбачення, наскільки&amp;nbsp; книга актуальна (ціна, попит, інше). Для пошуку книг можна застосовувати фільтри(автор, видавництво, рік/номер видання, інше). Можна також публікувати відгуки, рецензії про книги. Люди можуть комунікувати один-з-одним та домовлятися про купівлю-продає/обмін.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="30" width="760" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-2" value="Бізнес-драйвери" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="260" width="140" height="120" as="geometry" />
+        <mxCell id="KkIZ0aHoOunqVcFj1HI7-14" value="#SMART критерії бізнес-завдань:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Specific (що? чому? як?)&lt;/li&gt;&lt;li&gt;Measurable(кількісний критерій, щоб можна оцінити прогрес)&lt;/li&gt;&lt;li&gt;Achievable&lt;/li&gt;&lt;li&gt;Relevant(в межах загальної ідеї)&lt;/li&gt;&lt;li&gt;Time-bound&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="790" width="310" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-3" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-2">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-1" value="видавництво" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="560" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-4" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-2">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-2" value="&amp;nbsp;культура читання&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-5" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-2">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-3" value="просування книги (рецензії, блоги, фільми, fan-fiction)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-6" value="Бізнес-цілі" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="260" width="140" height="120" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-5" target="EgW0Rb2-eSd5i68cABhf-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-7" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-6">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-5" value="&amp;nbsp;тираж книги" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="560" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-8" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-6">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-6" value="розробити функцію оцінки популярності книги" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="940" width="170" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-9" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-6">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-7" value="розробити систему комунікації читачів (зацікавлених у книжці)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="830" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-10" value="Бізнес-завдання" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="260" width="140" height="120" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-9" value="суб&#39;єктивні читацькі інтереси" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="560" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-11" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-10">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.103;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFB570;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-11" target="EgW0Rb2-eSd5i68cABhf-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-12" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-10">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-11" value="автор книги" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="910" y="560" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-13" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-10">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-12" value="оформлення книги (мова, дизайн, папір, шрифт, переклад, наявність приміток, тлумачень)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-14" value="#SMART критерії бізнес-завдань:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Specific (що? чому? як?)&lt;/li&gt;&lt;li&gt;Measurable(кількісний критерій, щоб можна оцінити прогрес)&lt;/li&gt;&lt;li&gt;Achievable&lt;/li&gt;&lt;li&gt;Relevant(в межах загальної ідеї)&lt;/li&gt;&lt;li&gt;Time-bound&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="430" width="310" height="110" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-13" target="EgW0Rb2-eSd5i68cABhf-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-16" value="Зовнішні стейкхолдери" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="570" width="140" height="120" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-13" target="EgW0Rb2-eSd5i68cABhf-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-17" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-16">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-13" value="читацька спільноту (розмір)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-18" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-16">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-14" value="розробити систему рекомендацій читачів зі схожими смаками" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="830" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KkIZ0aHoOunqVcFj1HI7-19" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KkIZ0aHoOunqVcFj1HI7-16">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-15" target="EgW0Rb2-eSd5i68cABhf-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="740" />
+              <mxPoint x="770" y="988" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-15" value="популярність книги (eval_function(дятасет))" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="600" y="710" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-27" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-17" target="EgW0Rb2-eSd5i68cABhf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-17" target="EgW0Rb2-eSd5i68cABhf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-17" value="поширеність книг (достатньо зібраний датасет)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="130" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.6;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-1" target="EgW0Rb2-eSd5i68cABhf-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="770" as="sourcePoint" />
+            <mxPoint x="320" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EgW0Rb2-eSd5i68cABhf-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="650" as="sourcePoint" />
+            <mxPoint x="280" y="720.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#77EA57;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-2" target="EgW0Rb2-eSd5i68cABhf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="720" as="sourcePoint" />
+            <mxPoint x="370" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#B5739D;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-9" target="EgW0Rb2-eSd5i68cABhf-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="650" as="sourcePoint" />
+            <mxPoint x="590" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#77EA57;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-2" target="EgW0Rb2-eSd5i68cABhf-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="840" as="sourcePoint" />
+            <mxPoint x="270" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-3" target="EgW0Rb2-eSd5i68cABhf-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="820" as="sourcePoint" />
+            <mxPoint x="540" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.349;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#B5739D;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-9" target="EgW0Rb2-eSd5i68cABhf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="750" as="sourcePoint" />
+            <mxPoint x="600" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" target="EgW0Rb2-eSd5i68cABhf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="730" as="sourcePoint" />
+            <mxPoint x="590" y="729.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-37" value="Додаток з поширення книг" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1210" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.044;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-38" target="EgW0Rb2-eSd5i68cABhf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-38" value="журналісти" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.409;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-39" target="EgW0Rb2-eSd5i68cABhf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-39" value="студенти" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.96;entryY=0.236;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-40" target="EgW0Rb2-eSd5i68cABhf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-40" value="міністерство культури" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.044;entryY=0.742;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-41" target="EgW0Rb2-eSd5i68cABhf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-41" value="автори" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EgW0Rb2-eSd5i68cABhf-42" target="EgW0Rb2-eSd5i68cABhf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-42" value="окремі особи (книголюби, спеціалісти)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1340" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-45" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Зовнішні зацікавлені особи&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1070" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EgW0Rb2-eSd5i68cABhf-54" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Бізнес &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;драйвери&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(204, 204, 204);&quot;&gt;цілі&lt;/span&gt; - &lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;завдання&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="430" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
