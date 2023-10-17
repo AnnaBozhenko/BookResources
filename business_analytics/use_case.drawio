@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T17:05:24.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="53f29RGoWsty9E_acYce" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T11:57:24.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="pcSsiFu29jUVJMPw2jM0" version="22.0.4" type="github">
   <diagram name="Page-1" id="PlRaamHKNmshIAI-MbCV">
-    <mxGraphModel dx="2540" dy="1534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2400" dy="1461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,7 +113,7 @@
         <mxCell id="BU4Vp2ihJxP2OycMbJh8-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="BU4Vp2ihJxP2OycMbJh8-1" target="7-uCfjUR-_uSP8bJXize-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BU4Vp2ihJxP2OycMbJh8-1" value="поставити оцінки за категоріями" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BU4Vp2ihJxP2OycMbJh8-1" value="оцінити за шкалою загалом&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="590" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BU4Vp2ihJxP2OycMbJh8-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="BU4Vp2ihJxP2OycMbJh8-2" target="7-uCfjUR-_uSP8bJXize-23" edge="1">
@@ -440,16 +440,13 @@
             <mxPoint x="27" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ThuzmBTWsO7RLtkjjt9v-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="BU4Vp2ihJxP2OycMbJh8-5">
+        <mxCell id="ThuzmBTWsO7RLtkjjt9v-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="BU4Vp2ihJxP2OycMbJh8-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-150" y="360" as="sourcePoint" />
             <mxPoint x="190" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ThuzmBTWsO7RLtkjjt9v-2" value="data-аналітик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-89" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ThuzmBTWsO7RLtkjjt9v-4" value="сформувати запит&lt;br&gt;&amp;nbsp;з бд&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ThuzmBTWsO7RLtkjjt9v-4" value="сформувати запит&lt;br&gt;&amp;nbsp;з бд&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-340" y="-151" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
